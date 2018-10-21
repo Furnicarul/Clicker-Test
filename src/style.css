@@ -46,3 +46,32 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	height: 80vh;
+	width: 100%;
+}
+
+.header .text {
+	height: 11.3vh;
+	width: 100%;
+	background-color:#D3D3D3;
+}
+
+.header .text h2 {
+	font-size: 20px;
+	font-family: cursive;
+	text-align: center;
+	padding-top: 22px;
+	color: white;
+}
+
+.header .text .center {
+	position: absolute;
+	text-align: center;
+}
