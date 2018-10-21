@@ -58,7 +58,7 @@ body {
 }
 
 .header .text {
-	height: 11.3vh;
+	height: 14.4vh;
 	width: 100%;
 	background-color:#D3D3D3;
 }
@@ -67,11 +67,23 @@ body {
 	font-size: 20px;
 	font-family: cursive;
 	text-align: center;
-	padding-top: 22px;
+	padding-top: 30px;
 	color: white;
 }
 
 .header .text .center {
 	position: absolute;
 	text-align: center;
+}
+
+.header button {
+	height: 40vh;
+	width: 75vh;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	margin-top: 135px;
+	border-radius: 13px;
 }
